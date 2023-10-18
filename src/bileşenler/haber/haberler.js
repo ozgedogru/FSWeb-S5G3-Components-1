@@ -118,14 +118,14 @@ const data = [
 
 const haberYapici = (yeniHaber) => {
   const haber = document.createElement("div");
-  haber.classList.add = "article";
+  haber.className = "article";
 
   const h2 = document.createElement("h2");
   h2.textContent = yeniHaber.baslik;
   haber.append(h2);
 
   const p = document.createElement("p");
-  p.classList.add = "tarih";
+  p.className = "tarih";
   p.textContent = yeniHaber.tarih;
   haber.append(p);
 
@@ -142,7 +142,7 @@ const haberYapici = (yeniHaber) => {
   haber.append(paragraf3);
 
   const Button = document.createElement("button");
-  Button.classList.add = "expandButton";
+  Button.className = "expandButton";
   Button.textContent = "+";
   haber.append(Button);
 
