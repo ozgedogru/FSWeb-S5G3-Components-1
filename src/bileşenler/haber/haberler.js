@@ -116,29 +116,29 @@ const data = [
   Eklediğiniz yeni haberi görmek için sayfayı yenileyin.
 */
 
-const haberYapici = (newsArr) => {
+const haberYapici = (yeniHaber) => {
   const haber = document.createElement("div");
   haber.classList.add = "article";
 
   const h2 = document.createElement("h2");
-  h2.textContent = newsArr[0].baslik;
+  h2.textContent = yeniHaber.baslik;
   haber.append(h2);
 
   const p = document.createElement("p");
   p.classList.add = "tarih";
-  p.textContent = newsArr[0].tarih;
+  p.textContent = yeniHaber.tarih;
   haber.append(p);
 
   const paragraf1 = document.createElement("p");
-  paragraf1.textContent = newsArr[0].ilkParagraf;
+  paragraf1.textContent = yeniHaber.ilkParagraf;
   haber.append(paragraf1);
 
   const paragraf2 = document.createElement("p");
-  paragraf2.textContent = newsArr[0].ilkParagraf;
+  paragraf2.textContent = yeniHaber.ilkParagraf;
   haber.append(paragraf2);
 
   const paragraf3 = document.createElement("p");
-  paragraf3.textContent = newsArr[0].ilkParagraf;
+  paragraf3.textContent = yeniHaber.ilkParagraf;
   haber.append(paragraf3);
 
   const Button = document.createElement("button");
@@ -153,10 +153,7 @@ const haberYapici = (newsArr) => {
   return haber;
 };
 
-// const haberler = data.forEach((icerik) => {
-//   icerik = haberYapici(data);
-// });
-
-const haberler = haberYapici(data);
-
-document.querySelector(".articles").append(haberler);
+data.forEach((icerik) => {
+  let yenIcerik = haberYapici(icerik);
+  document.querySelector(".articles").append(yenIcerik);
+});
