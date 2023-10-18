@@ -88,6 +88,13 @@ const data = [
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`,
   },
+  {
+    baslik: "Storm Babet map reveals when and where heavy rain will hit UK",
+    tarih: "188 Oct 2023",
+    ilkParagraf: `The UK faces torrential rain and powerful winds in the second named storm of the season later this week. Storm Babet will bring “impactful” weather to the UK from Wednesday, the Met Office has said as it issued a four-day warning for most of the country.`,
+    ikinciParagraf: `Yellow severe weather warnings cover much of Scotland, eastern Northern Ireland, the northeast of England, Yorkshire, the East Midlands and East Anglia.`,
+    ucuncuParagraf: `As much as 150mm to 200mm of rain is expected to fall on central and eastern areas of Scotland and there is a possibility of 70mph gale-force winds affecting northern parts of the UK, forecasters warned.Deputy chief meteorologist Steven Keates said Storm Babet will bring “impactful rain” to the UK, especially in eastern Scotland, Northern Ireland and northern England later this week.`,
+  },
 ];
 
 /*
